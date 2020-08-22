@@ -1,0 +1,5 @@
+[{"name":"CRNT_HIC_NUM", "length":11, "format":"X"},
+  {"name":"PRVS_HIC_NUM", "length":11, "format":"X"},
+  {"name":"PRVS_HICN_EFCTV_DT", "length":10, "format":"YYYY-MM-DD"},
+  {"name":"PRVS_HICN_OBSLT_DT", "length":10, "format":"YYYY-MM-DD"},
+  {"name":"BENE_RRB_NUM", "length":12, "format":"X"}]

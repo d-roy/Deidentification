@@ -1,0 +1,12 @@
+[
+  {
+    "name": "CUR_CLM_UNIQ_ID",
+    "length": 13,
+    "format": "Q"
+  },
+  {
+    "name": "PRVDR_OSCAR_NUM",
+    "length": 6,
+    "format": "X"
+  }
+]

@@ -1,0 +1,11 @@
+[{"name":"CUR_CLM_UNIQ_ID", "length":13, "format":"9"},
+  {"name":"BENE_HIC_NUM", "length":11, "format":"X"},
+  {"name":"CLM_TYPE_CD", "length":2, "format":"9"},
+  {"name":"CLM_PROD_TYPE_CD", "length":1, "format":"X"},
+  {"name":"CLM_VAL_SQNC_NUM", "length":2, "format":"9"},
+  {"name":"CLM_DGNS_CD", "length":7, "format":"X"},
+  {"name":"BENE_EQTBL_BIC_HICN_NUM", "length":11, "format":"X"},
+  {"name":"PRVDR_OSCAR_NUM", "length":6, "format":"X"},
+  {"name":"CLM_FROM_DT", "length":10, "format":"YYYY-MM-DD"},
+  {"name":"CLM_THRU_DT", "length":10, "format":"YYYY-MM-DD"},
+  {"name":"CLM_POA_IND", "length":7, "format":"X"}]

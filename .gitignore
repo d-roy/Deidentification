@@ -1,0 +1,22 @@
+# Maven Output Directory
+target/
+
+# Maven generated file when packaging as uberjar
+dependency-reduced-pom.xml
+
+# no idea
+.idea/
+*.iml
+.DS_Store
+
+# Log files
+logs/
+
+# Vagrant stuff
+.vagrant/
+
+#eclipse
+
+.classpath
+.project
+.settings/

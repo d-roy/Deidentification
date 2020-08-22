@@ -1,0 +1,126 @@
+{
+  "demographics": {
+    "_meta": {
+      "partitioningColumn": "patient_id"
+    },
+    "patient_id": {
+      "strategy": [
+        {
+          "type": "Hash",
+          "salt_key": "patient"
+        }
+      ]
+    },
+    "first_name": {
+      "strategy": [
+        {
+          "type": "FixedFirstName"
+        }
+      ]
+    },
+    "last_name": {
+      "strategy": [
+        {
+          "type": "FixedLastName"
+        }
+      ]
+    },
+    "dob": {
+      "strategy": [
+        {
+          "type": "Year"
+        }
+      ]
+    },
+    "gender": {
+      "strategy": [
+        {
+          "type": "Identity"
+        }
+      ]
+    },
+    "race": {
+      "strategy": [
+        {
+          "type": "Identity"
+        }
+      ]
+    },
+    "zip": {
+      "strategy": [
+        {
+          "type": "Zip3Digit"
+        }
+      ]
+    }
+  },
+  "encounters": {
+    "_meta": {
+      "partitioningColumn": "patient_id"
+    },
+    "patient_id": {
+      "strategy": [
+        {
+          "type": "Hash",
+          "salt_key": "patient"
+        }
+      ]
+    },
+    "physician_id": {
+      "strategy": [
+        {
+          "type": "Identity",
+          "salt_key": "visit"
+        }
+      ]
+    },
+    "visit_type": {
+      "strategy": [
+        {
+          "type": "Identity"
+        }
+      ]
+    },
+    "encounter_date": {
+      "strategy": [
+        {
+          "type": "Year"
+        }
+      ]
+    },
+    "notes": {
+      "strategy": [
+        {
+          "type": "Identity"
+        }
+      ]
+    }
+  },
+  "heartrate_ts": {
+    "_meta": {
+     "partitioningColumn": "patient_id"
+    },
+    "patient_id": {
+      "strategy": [
+        {
+          "type": "Hash",
+          "salt_key": "patient"
+        }
+      ]
+    },
+    "timestamp": {
+      "strategy": [
+        {
+          "type": "Year"
+        }
+      ]
+    },
+    "heartrate": {
+      "strategy": [
+        {
+          "type": "Identity"
+        }
+      ]
+    }
+  }
+}

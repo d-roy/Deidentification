@@ -1,0 +1,5 @@
+{"NAME": "Chris O'Riordan", "patientid":"DH_03292239233474333_1", "gender": "Male", "PLACE_OF_BIRTH":"Caribbean",  "DATE_OF_BIRTH":"1995-10-27 18:25:43.511", "DATE_OF_SERVICE":"1920-11-30", "AGE":21, "YEAR_OF_BIRTH": 1800}
+{"NAME": "Kevin Allen", "patientid": "DH_03292239233472733_5", "gender": "Male", "PLACE_OF_BIRTH":"Black",  "DATE_OF_BIRTH":"1973-10-21 18:25:43.514", "DATE_OF_SERVICE": "2015-07-19", "AGE": 90, "YEAR_OF_BIRTH": 1994}
+{"NAME": "Minnesota Bill", "patientid": "DH_03292239233474493_2", "gender": "Female", "PLACE_OF_BIRTH": "West  African", "DATE_OF_BIRTH": "1900-04-23 18:25:43.672", "DATE_OF_SERVICE": "1999-04-05", "AGE": 95, "YEAR_OF_BIRTH": 1930}
+{"NAME": null, "patientid": "DH_03292237633474493_7", "PLACE_OF_BIRTH": "African American", "DATE_OF_BIRTH": null, "DATE_OF_SERVICE": null, "AGE": null, "YEAR_OF_BIRTH": null}
+{"NAME": null, "patientid": null, "PLACE_OF_BIRTH": "African American", "DATE_OF_BIRTH": null, "DATE_OF_SERVICE": null, "AGE": null, "YEAR_OF_BIRTH": null}
